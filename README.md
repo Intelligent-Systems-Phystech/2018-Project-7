@@ -4,13 +4,15 @@
 ### The project is developed independently by two teams:
 1. The first team (*a.k.a* the **Learning Pashtet Crew**):
 ```
-* Ivan Korostelev
+* Alexey Gladkov
 * Genrikh Kenugsberger
 * Pavel Fedosov
-* Alexey Gladkov
+* Ivan Korostelev
 ```
-2. The second team
+2. The second team:
+
 
 ### **License**
 The work goes by the MIT Standard License
+
 :copyright:2018
