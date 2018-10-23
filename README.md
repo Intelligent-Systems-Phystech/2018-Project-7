@@ -8,6 +8,7 @@
 * Genrikh Kenugsberger
 * Pavel Fedosov
 * Ivan Korostelev
+* Nikolay Balakin
 ```
 2. The second team:
 
