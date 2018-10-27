@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage[T1, T2A]{fontenc}
+
+\input xy
+\xyoption{all}
+\newtheorem{Def}{Definition}
+\renewcommand{\abstractname}{\textbf{Abstract}:}
+\newcommand{\fD}{\mathfrak{D}}
+\date{October 2018}
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\title{Privileged training in the problem of approximating the borders of the iris}
+\date{}
+\maketitle
+\begin{center}
+   {N.\,A.~Balakin\footnote{MIPT, balakin.ni@phystech.edu},
+   A.\,A.~Gladkov\footnote{MIPT, gladkov.al@phystech.edu,},
+   G.\,A.~Kenigsberger\footnote{MIPT, kenigsberger.ge@phystech.edu},
+   I.\,A.~Korostelev\footnote{MIPT, korostelev.iv@phystech.edu,},
+   P.\,A.~Fedosov\footnote{MIPT, fedosov.pa@phystech.edu,}
+   }
+\end{center}
+
+
+\textbf{Abstract:} This very work analyses various Machine Learning techniques and their outcomes for the problem of specifying irises radii and their circumferences disposition. As the bottom line implies formatting and scaling of the input data, the greatest bias at the first stage of the research is given to statistical methods not involving Neural Networks. Further into the experiment, it looks in depths at the advantages of linear multi-models. Capsular neural networks conclude the experiment as they promised benign results at the initial stage. 
+
+
+
+\bigskip
+\textbf{Key words}: multi-models, capsular neural networks
+
+\section {Introdaction}
+Methods, algorithms, and applications of human recognition based on the iris image have been rapidly
+developing in the last decade. A key component of iris recognition systems is a method of detection (segmentation) of the image region that contains the eye with the nearest neighborhood, i.e., with eyebrows, nose,
+and a part of cheek. 
+
+In the present paper, we propose a linear multimodels method\cite{11-Aduenko_main} for determining the parameters of the iris and for detecting the iris in the image of the eye. 
+Computational experiment is performed to check the efficiency of the algorithm on data from the public iris image databases\cite{ Iris Image Database (CASIA)} and to compare
+one to the method of paired gradients\cite{Efimov2015IrisBorderRecognition}, which is based on the Hough methodology and used for the eye center search. 
+
+Further analysis of the proposed algorithm and increasing its stability are required. Additionally, using capsular neural networks.
+\section {Fundamentals}
+
+\maketitle
+\bibliographystyle{plain}
+\bibliography{Project7}
+
+\end{document}
